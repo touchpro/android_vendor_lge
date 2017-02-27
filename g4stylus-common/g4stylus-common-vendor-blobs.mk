@@ -22,6 +22,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4stylus-common/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/lge/g4stylus-common/proprietary/lib/libcrypto_wlan.so:system/lib/libcrypto_wlan.so \
+    vendor/lge/g4stylus-common/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/lge/g4stylus-common/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/lge/g4stylus-common/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
     vendor/lge/g4stylus-common/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
@@ -224,6 +226,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4stylus-common/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/lge/g4stylus-common/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/lge/g4stylus-common/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
+    vendor/lge/g4stylus-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
+    vendor/lge/g4stylus-common/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
