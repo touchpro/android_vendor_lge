@@ -32,6 +32,19 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4stylus-common/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/lge/g4stylus-common/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/lge/g4stylus-common/proprietary/etc/acdbdata/workspaceFile.qwsp:system/etc/acdbdata/workspaceFile.qwsp \
+    vendor/lge/g4stylus-common/proprietary/lib/libcurl.so:system/lib/libcurl.so \
+    vendor/lge/g4stylus-common/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
+    vendor/lge/g4stylus-common/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
+    vendor/lge/g4stylus-common/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
+    vendor/lge/g4stylus-common/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
+    vendor/lge/g4stylus-common/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
+    vendor/lge/g4stylus-common/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/lge/g4stylus-common/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
+    vendor/lge/g4stylus-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/lge/g4stylus-common/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
+    vendor/lge/g4stylus-common/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
+    vendor/lge/g4stylus-common/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
+    vendor/lge/g4stylus-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -175,6 +188,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4stylus-common/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/lge/g4stylus-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/lge/g4stylus-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/lge/g4stylus-common/proprietary/bin/audiod:system/bin/audiod \
+    vendor/lge/g4stylus-common/proprietary/bin/cnd:system/bin/cnd \
+    vendor/lge/g4stylus-common/proprietary/bin/dpmd:system/bin/dpmd \
+    vendor/lge/g4stylus-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/lge/g4stylus-common/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/lge/g4stylus-common/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/lge/g4stylus-common/proprietary/etc/izat.conf:system/etc/izat.conf \
@@ -265,7 +282,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4stylus-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lge/g4stylus-common/proprietary/bin/sensord:system/bin/sensord \
     vendor/lge/g4stylus-common/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
-    vendor/lge/g4stylus-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/lge/g4stylus-common/proprietary/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/lge/g4stylus-common/proprietary/bin/time_daemon:system/bin/time_daemon \
