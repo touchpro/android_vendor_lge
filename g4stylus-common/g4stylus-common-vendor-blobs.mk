@@ -43,6 +43,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4stylus-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
+    vendor/lge/g4stylus-common/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
+    vendor/lge/g4stylus-common/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+    vendor/lge/g4stylus-common/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
+    vendor/lge/g4stylus-common/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
+    vendor/lge/g4stylus-common/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
+    vendor/lge/g4stylus-common/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
+    vendor/lge/g4stylus-common/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
+    vendor/lge/g4stylus-common/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
+    vendor/lge/g4stylus-common/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
@@ -51,6 +60,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
+    vendor/lge/g4stylus-common/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
+    vendor/lge/g4stylus-common/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
+    vendor/lge/g4stylus-common/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
