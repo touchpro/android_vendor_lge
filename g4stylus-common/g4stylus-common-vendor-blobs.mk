@@ -171,16 +171,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4stylus-common/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/lge/g4stylus-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/g4stylus-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
-    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
-    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
-    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
-    vendor/lge/g4stylus-common/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
-    vendor/lge/g4stylus-common/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
-    vendor/lge/g4stylus-common/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
-    vendor/lge/g4stylus-common/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
-    vendor/lge/g4stylus-common/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
+    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/etc/firmware/keymaster/keymaster.b00 \
+    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/etc/firmware/keymaster/keymaster.b01 \
+    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/etc/firmware/keymaster/keymaster.b02 \
+    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.b03:system/etc/firmware/keymaster/keymaster.b03 \
+    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/etc/firmware/keymaster/keymaster.mdt \
+    vendor/lge/g4stylus-common/proprietary/vendor/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
+    vendor/lge/g4stylus-common/proprietary/vendor/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
+    vendor/lge/g4stylus-common/proprietary/vendor/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
+    vendor/lge/g4stylus-common/proprietary/vendor/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
+    vendor/lge/g4stylus-common/proprietary/vendor/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
@@ -222,6 +222,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4stylus-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/g4stylus-common/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/lge/g4stylus-common/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
@@ -251,10 +252,17 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/lge/g4stylus-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/lge/g4stylus-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/lge/g4stylus-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/lge/g4stylus-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/lge/g4stylus-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/lge/g4stylus-common/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/lge/g4stylus-common/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+    vendor/lge/g4stylus-common/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
+    vendor/lge/g4stylus-common/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
+    vendor/lge/g4stylus-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/lge/g4stylus-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/lge/g4stylus-common/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
@@ -292,6 +300,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/lge/g4stylus-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lge/g4stylus-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/lge/g4stylus-common/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/lge/g4stylus-common/proprietary/bin/sensord:system/bin/sensord \
     vendor/lge/g4stylus-common/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/lge/g4stylus-common/proprietary/bin/thermal-engine:system/vendor/bin/thermal-engine \
