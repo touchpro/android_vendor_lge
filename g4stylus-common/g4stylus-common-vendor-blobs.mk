@@ -309,12 +309,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4stylus-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/lge/g4stylus-common/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
-    vendor/lge/g4stylus-common/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
-    vendor/lge/g4stylus-common/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
-    vendor/lge/g4stylus-common/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-    vendor/lge/g4stylus-common/proprietary/etc/firmware/wcnss.b06:system/etc/firmware/wcnss.b06 \
-    vendor/lge/g4stylus-common/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
-    vendor/lge/g4stylus-common/proprietary/etc/firmware/wcnss.b10:system/etc/firmware/wcnss.b10 \
-    vendor/lge/g4stylus-common/proprietary/etc/firmware/wcnss.b11:system/etc/firmware/wcnss.b11 \
-    vendor/lge/g4stylus-common/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt
+    vendor/lge/g4stylus-common/proprietary/etc/firmware/wcnss.b00:system/vendor/firmware/wcnss.b00 \
+    vendor/lge/g4stylus-common/proprietary/etc/firmware/wcnss.b01:system/vendor/firmware/wcnss.b01 \
+    vendor/lge/g4stylus-common/proprietary/etc/firmware/wcnss.b02:system/vendor/firmware/wcnss.b02 \
+    vendor/lge/g4stylus-common/proprietary/etc/firmware/wcnss.b04:system/vendor/firmware/wcnss.b04 \
+    vendor/lge/g4stylus-common/proprietary/etc/firmware/wcnss.b06:system/vendor/firmware/wcnss.b06 \
+    vendor/lge/g4stylus-common/proprietary/etc/firmware/wcnss.b09:system/vendor/firmware/wcnss.b09 \
+    vendor/lge/g4stylus-common/proprietary/etc/firmware/wcnss.b10:system/vendor/firmware/wcnss.b10 \
+    vendor/lge/g4stylus-common/proprietary/etc/firmware/wcnss.b11:system/vendor/firmware/wcnss.b11 \
+    vendor/lge/g4stylus-common/proprietary/etc/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt
