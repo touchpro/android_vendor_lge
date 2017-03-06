@@ -208,7 +208,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4stylus-common/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/lge/g4stylus-common/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lge/g4stylus-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/lge/g4stylus-common/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
+    vendor/lge/g4stylus-common/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/app/com.qualcomm.location/com.qualcomm.location.apk \
     vendor/lge/g4stylus-common/proprietary/etc/quipc.conf:system/etc/quipc.conf \
     vendor/lge/g4stylus-common/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/lge/g4stylus-common/proprietary/etc/sap.conf:system/etc/sap.conf \
