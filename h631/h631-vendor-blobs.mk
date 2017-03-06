@@ -38,6 +38,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/h631/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/lge/h631/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/lge/h631/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/lge/h631/proprietary/lib/hw/nfc_lg.default.so:system/lib/hw/nfc_lg.default.so \
+    vendor/lge/h631/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/lge/h631/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/lge/h631/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/lge/h631/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \

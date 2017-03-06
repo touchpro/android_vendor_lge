@@ -171,11 +171,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4stylus-common/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/lge/g4stylus-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/g4stylus-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/etc/firmware/keymaster/keymaster.b00 \
-    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/etc/firmware/keymaster/keymaster.b01 \
-    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/etc/firmware/keymaster/keymaster.b02 \
-    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.b03:system/etc/firmware/keymaster/keymaster.b03 \
-    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/etc/firmware/keymaster/keymaster.mdt \
+    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    vendor/lge/g4stylus-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/lge/g4stylus-common/proprietary/vendor/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
     vendor/lge/g4stylus-common/proprietary/vendor/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
     vendor/lge/g4stylus-common/proprietary/vendor/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
