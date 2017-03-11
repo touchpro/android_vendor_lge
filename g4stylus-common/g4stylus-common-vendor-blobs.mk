@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/g4stylus-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
+    vendor/lge/g4stylus-common/proprietary/vendor/lib/libcryptfs_hw.so:system/vendor/lib/libcryptfs_hw.so \
     vendor/lge/g4stylus-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/lge/g4stylus-common/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
     vendor/lge/g4stylus-common/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
